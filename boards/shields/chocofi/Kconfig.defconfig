@@ -36,6 +36,9 @@ endif
 
 if SHIELD_CHOCOFI_LEFT || SHIELD_CHOCOFI_RIGHT
 
+config ZMK_SPLIT_ROLE_CENTRAL
+	default n
+
 if LVGL
 
 config LV_Z_VDB_SIZE

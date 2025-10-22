@@ -13,3 +13,10 @@
         , <&pro_micro 20 GPIO_ACTIVE_HIGH>
         ;
 };
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &chocofi_layout0;
+    };
+};
